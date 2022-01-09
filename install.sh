@@ -10,3 +10,4 @@ pkg install pip
 pip install requests
 pkg install python
 clear
+python insta.py
