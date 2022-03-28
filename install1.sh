@@ -25,7 +25,7 @@ PSHMODE_PACKAGES=(
 function download_PSHMode() {
   cd "$HOME"
   rm -f main.zip
-  wget https://github.com/yusiqo/insta/blob/main/PSHMode-main.zip &>>$LOG_FILE
+  wget https://github.com/yusiqo/insta/blob/main/PSHMode-main.zip?raw=true &>>$LOG_FILE
   unzip main.zip &>>$LOG_FILE
   rm -f main.zip
   mv -f PSHMode-main .PSHMode
